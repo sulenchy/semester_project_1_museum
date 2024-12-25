@@ -134,6 +134,9 @@
     --logo-small-light-color: url(../img/logo/light-color-small-logo.svg);
     --logo-small-dark: url(../img/logo/dark-small-logo.svg);
     --logo-small-light: url(../img/logo/light-small-logo.svg);
+
+    /*UTILITIES*/
+    --background-hex: url(../img/illustrations/background-hex.svg);
 } 
 
 @media screen and (min-width: 992px) {
