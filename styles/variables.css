@@ -125,10 +125,15 @@
     --mail-icon: url(../img/icons/mail-icon.svg);
 
     /*LOGO*/
-    --large-logo: url(../img/logo/large-logo-xl.svg);
+    --logo-color-light: url(../img/logo/color-light-logo.svg);
+    --logo-color-dark: url(../img/logo/color-dark-logo.svg);
+    --logo-dark: url(../img/logo/dark-logo.svg);
+    --logo-light: url(../img/logo/white-logo.svg);
 
-    
-
+    --logo-small-dark-color: url(../img/logo/dark-color-small-logo.svg);
+    --logo-small-light-color: url(../img/logo/light-color-small-logo.svg);
+    --logo-small-dark: url(../img/logo/dark-small-logo.svg);
+    --logo-small-light: url(../img/logo/light-small-logo.svg);
 } 
 
 @media screen and (min-width: 992px) {
