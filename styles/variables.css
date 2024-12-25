@@ -1,3 +1,98 @@
-/* :root{
+:root{
 
-} */
+    /*COLORS*/
+    --color-yellow: #FFCC00;
+    --color-blue: #3A86FF;
+    --color-dark: #252424;
+
+    --color-white: #F5F5F5;
+    --color-off-white: #FAF3E0;
+    --color-purple: #8E44AD;
+
+    --color-black:#1E1E1E;
+    --color-shadow: #1e1e1e35;
+    --color-shadow-image: #1E1E1E70;
+
+    /*VALUES*/
+    --button-lines-w: 50px;
+    --button-lines-h: 4px; 
+
+    --border-radius: 5px;
+
+    --title-gap: 35px; /*70*/
+    --paragraph-gap: 23px; /*30*/
+
+    /*FONT SIZES*/
+    --menu-titles: 28px; /*22*/
+    --large-heading: 40px; /*55*/
+    --large-title: 32px; /*50*/
+
+    --title-h1: 24px; /*30*/
+    --title-h2: 20px; /*30*/
+    --title-h3: 18px; /*26*/
+
+    --button-text: 25px; /*30*/
+
+    --paragraph: 18px; /*20*/
+    --med-paragraph: 16px; /*18*/
+    --small-paragraph: 14px; /*16*/
+
+    /*IMAGES*/
+
+    /*contact page*/
+    --img-small-aeria1: url(../img/library-1132573_1920.jpg);
+    --img-small-aeria2: url(../img/exhibition-1863344_1920.jpg);
+    --img-small-map: url(../img/informational/Skjermbilde 2024-12-17 213356.jpg);
+
+    /*contribution page*/
+    --img-small-aeria3: url(../img/scott-webb-102825.jpg);
+    --img-small-boy-reading: url(../img/illustrations/reading-2762010_1280.jpg);
+
+    /*biology and medicine*/
+    --img-small-maniken: url(../img/samuel-zeller-113381.jpg);
+
+    /*robotics and ai*/
+    --img-small-girl-with-oculus: url(../img/samuel-zeller-158996.jpg);
+
+    /*news slideshow*/
+    --img-small-woman-professor: url(../img/professor_lecture_small.jpg);
+    --img-small-aeria4: url(../img/roberto-nickson-396152.jpg);
+    --img-small-container: url(../img/scientific-2040795_1280.jpg);
+
+    /*slideshow banner front page*/
+    --img-banner-1: var(--img-small-aeria2);
+    --img-banner-2: var(--img-small-maniken);
+    --img-banner-3: var(--img-small-girl-with-oculus);
+    --img-banner-4: var(--img-small-aeria4);
+
+    /*exhibition slideshow*/
+    --img-slideshow1: var();
+    --img-slideshow2: var();
+    --img-slideshow3: var();
+    --img-slideshow4: var();
+    --img-slideshow5: var();
+
+} 
+
+@media screen and (min-width: 992px) {
+    :root{
+        /*VALUES*/
+        --title-gap: 70px; 
+        --paragraph-gap: 30px; 
+    
+        /*FONT SIZES*/
+        --menu-titles: 22px; 
+        --large-heading: 55px; 
+        --large-title: 50px; 
+    
+        --title-h1: 30px; 
+        --title-h2: 30px; 
+        --title-h3: 26px; 
+    
+        --button-text: 30px; 
+    
+        --paragraph: 20px; 
+        --med-paragraph: 18px;
+        --small-paragraph: 16px; 
+    } 
+}
