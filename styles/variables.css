@@ -112,6 +112,23 @@
     --title-img3: var(--img-small-heart);
     --title-img4: var(--img-small-small-robot);
     --title-img5: var(--img-small-planet);
+
+
+
+    /*ICONS*/
+    --facebook-logo: url(../img/icons/facebook-logo.svg);
+    --instagram-logo: url(../img/icons/instagram-logo.svg);
+    --tiktok-logo: url(../img/icons/tiktok-logo.svg);
+
+    --location-icon: url(../img/icons/location-icon.svg);
+    --phone-icon: url(../img/icons/mobile-icon.svg);
+    --mail-icon: url(../img/icons/mail-icon.svg);
+
+    /*LOGO*/
+    --large-logo: url(../img/logo/large-logo-xl.svg);
+
+    
+
 } 
 
 @media screen and (min-width: 992px) {
