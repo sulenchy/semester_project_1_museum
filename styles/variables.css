@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
 :root{
 
     /*COLORS*/
@@ -12,15 +16,19 @@
     --color-black:#1E1E1E;
     --color-shadow: #1e1e1e35;
     --color-shadow-image: #1E1E1E70;
-
+    
     /*VALUES*/
     --button-lines-w: 50px;
     --button-lines-h: 4px; 
-
+    
     --border-radius: 5px;
-
+    
     --title-gap: 35px; /*70*/
     --paragraph-gap: 23px; /*30*/
+
+    /*FONT STYLES*/
+    --title-font: "Poppins", sans-serif;
+    --secondary-font: "DM Sans", sans-serif;
 
     /*FONT SIZES*/
     --menu-titles: 28px; /*22*/
