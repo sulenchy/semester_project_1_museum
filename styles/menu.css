@@ -52,6 +52,8 @@
     padding: 10px 10px 10px 3%;
     background-color: var(--color-dark);
     color: var(--color-white);
+
+    font-size: var(--menu-titles);
   }
 
   #menu input:checked ~ ul.menu{
@@ -60,7 +62,7 @@
     }
   
   ul.menu li {
-    font-size: var();
+
   }
   
   
