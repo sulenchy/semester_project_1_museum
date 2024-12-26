@@ -61,15 +61,12 @@
     opacity: 1;
     }
   
-  ul.menu li {
-
-  }
   
-  
-  /* .menu-layout {
+  .menu-layout {
+    
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    align-items: flex-start;
-  } */
+    align-items: flex-end;
+  } 

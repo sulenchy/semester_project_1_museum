@@ -28,7 +28,7 @@ ul, menu {
 a, button {
     font-style: normal;
     text-decoration: none;
-    color: var(--color-dark);
+    color: inherit;
     background: transparent;
     border: none;
     font-family: var(--title-font);
