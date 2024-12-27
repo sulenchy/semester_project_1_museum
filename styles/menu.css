@@ -74,9 +74,7 @@
     }
   }
 
-  .color-orange{
-    color: var(--color-yellow);
-  }
+  
 
 
   @media screen and (min-width: 900px){

@@ -1,0 +1,7 @@
+
+.color-dark{
+    fill: var(--color-yellow);
+}
+.color-orange{
+    color: var(--color-yellow);
+  }

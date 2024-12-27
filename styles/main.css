@@ -3,8 +3,10 @@
 
 @import url(display.css);
 @import url(fonts.css);
+@import url(colors.css);
 
 @import url(menu.css);
+@import url(footer.css);
 
 body {
     color: var(--color-black);

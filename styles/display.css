@@ -16,7 +16,6 @@
 
 header{
     grid-area: header;
-   
     position: sticky;
 }
 main{
@@ -24,6 +23,8 @@ main{
 }
 footer{
     grid-area: footer;
+    background-color: var(--color-yellow);
+    color: var(--color-dark);
 }
 
 
