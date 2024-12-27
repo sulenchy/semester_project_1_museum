@@ -147,7 +147,7 @@
     --background-hex: url(../img/illustrations/background-hex.svg);
 } 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 900px) {
     :root{
         /*VALUES*/
         --title-gap: 70px; 

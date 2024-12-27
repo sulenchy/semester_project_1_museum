@@ -77,3 +77,36 @@
   .color-orange{
     color: var(--color-yellow);
   }
+
+
+  @media screen and (min-width: 900px){
+    header{
+        max-height: 70px;
+        background-color: var(--color-dark);
+    }
+    #menu {
+        align-self: flex-end;
+        position: initial;
+        background-color: transparent;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+      }
+    ul.menu {
+        position: inherit;
+        opacity: 1;
+        transform: none;
+        transition: none;
+        height: auto;
+        width: auto;
+        flex-direction: row;
+
+        li{
+            margin: 0 1rem;
+        }
+      }
+    
+    
+  }
