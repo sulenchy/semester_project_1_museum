@@ -1,0 +1,7 @@
+.med-paragraph{
+    font-size: var(--med-paragraph);
+}
+
+.btn-size{
+    font-size: var(--button-text);
+}

@@ -23,3 +23,45 @@ main{
 footer{
     grid-area: footer;
 }
+
+
+/*flex*/
+
+.flex{
+    display: flex;
+}
+.col{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+
+.gap-1rem-0{
+    gap: 1rem 0;
+}
+.gap-0-1rem{
+    gap: 0 1rem;
+}
+
+
+
+/*margin*/
+
+.margin-1rem{
+    margin: 1rem;
+}
+
+.side-margin-20{
+    margin: 0 20px;
+}
+
+.margin-auto{
+    margin-top: auto;
+}
+
+/*text align*/
+
+.txt-align-right{
+    text-align: right;
+}
