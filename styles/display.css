@@ -7,7 +7,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 70px 1fr auto;
     grid-template-areas:
         "header header header"
         "main main main"
@@ -16,7 +16,8 @@
 
 header{
     grid-area: header;
-    position: sticky;
+    position: fixed;
+    width: 100%;
 }
 main{
     grid-area: main;
@@ -115,6 +116,8 @@ footer{
 }
 
 
+
+
 /*padding*/
 
 .side-padding-20{
@@ -140,3 +143,9 @@ footer{
 .hidden{
     display: none;
 }
+
+/* @media screen and (min-width: 900px){
+    .main-side-margin{
+        margin: 0 20%;
+    }
+} */
