@@ -32,6 +32,17 @@
     outline: none;
 }
 
+::placeholder {
+    color: var(--color-shadow);
+    font-style: italic;
+    opacity: 1;
+  }
+  
+  ::-ms-input-placeholder {
+    color: var(--color-shadow);
+    font-style: italic;
+  }
+
 .footer-grid{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -85,15 +96,21 @@ footer section ul li p{
 
 @media screen and (min-width: 900px){
     .footer-grid{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr auto repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
         grid-template-areas:
-            "img . ."
-            "info1 info2 info3"
-            "bottom-section1 bottom-section1 bottom-section1"
-            "bottom-section2 bottom-section2 bottom-section2";
+            "img . . ."
+            "info1 placeholder info2 info3"
+            "bottom-section1 bottom-section1 bottom-section1 bottom-section1"
+            "bottom-section2 bottom-section2 bottom-section2 bottom-section2";
     }
 
+    .placeholder{
+        grid-area: placeholder;
+        height: 100%;
+        width: 50px;
+        border-right: 2px solid var(--color-shadow);
+    }
     .grid-area-info2{
         h3{
             text-align: left;
