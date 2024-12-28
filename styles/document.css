@@ -11,6 +11,8 @@
     transform: rotate(90deg);
   }
 
+  /*does not have animations like I wanted, but works*/
+  
   .documentation-content #privacy-policy,
   .documentation-content #terms-conditions{
     width: 100%;

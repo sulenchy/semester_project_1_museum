@@ -1,8 +1,38 @@
-.med-paragraph{
-    font-size: var(--med-paragraph);
+
+h1, h2, h3, h4, a, button{
+    font-family: var(--title-font);
 }
 
 .btn-size{
     font-size: var(--button-text);
 }
+p{
+    font-size: var(--paragraph);
+    font-family: var(--secondary-font);
+}
+.med-paragraph{
+    font-size: var(--med-paragraph);
+}
+.small-paragraph{
+    font-size: var(--small-paragraph);
+}
+h1{
+    font-size: var(--title-h1);
+}
+h2{
+    font-size: var(--title-h2);
+}
+h3{
+    font-size: var(--title-h3);
+}
 
+a, button{
+    font-size: var(--button-text);
+}
+
+.large-title{
+    font-size: var(--large-title);
+}
+.large-heading{
+    font-size: var(--large-heading);
+}
