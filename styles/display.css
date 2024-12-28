@@ -67,6 +67,12 @@ footer{
     margin-top: auto;
 }
 
+/*padding*/
+
+.side-padding-20{
+    padding: 10px 20px;
+}
+
 /*text align*/
 
 .txt-align-right{
