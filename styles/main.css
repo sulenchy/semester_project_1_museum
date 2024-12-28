@@ -18,8 +18,14 @@ body {
     max-width: 100%;
   }
 
-  a, button{
+  a, button, label, input{
     cursor: pointer;
+  }
+
+  ul.bullet {
+    list-style-type: disc;
+    padding: initial;
+    margin: inherit;
   }
 
   .button{
@@ -42,6 +48,39 @@ body {
     object-fit: cover;
    }
   }
+
+
+
+  /*move to document css file and connect that one to only the document html*/
+  .info-label div {
+    display: inline-block; 
+    transform-origin: center center; 
+    transition: transform 0.3s ease; 
+  }
+
+
+  #documentation1:checked + .info-label div, 
+  #documentation2:checked + .info-label div{
+    transform: rotate(90deg);
+  }
+
+  .documentation-content #privacy-policy,
+  .documentation-content #terms-conditions{
+ 
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  #documentation1:checked ~ .documentation-content #privacy-policy, 
+  #documentation2:checked ~ .documentation-content #terms-conditions{
+    
+    opacity: 1;
+
+    }
+
+
+
+
 
 
 
