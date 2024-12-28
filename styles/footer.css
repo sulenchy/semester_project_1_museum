@@ -43,7 +43,8 @@
         "info3"
         "bottom-section1"
         "bottom-section2";
-    
+    column-gap: 1rem;
+    row-gap: 1rem;
 }
 .grid-area-img{
     grid-area: img;
@@ -53,15 +54,31 @@
 }
 .grid-area-info2{
     grid-area: info2;
+    h3{
+        text-align: center;
+    }
 }
 .grid-area-info3{
     grid-area: info3;
+    h3{
+        text-align: center;
+    }
 }
 .grid-area-bottom1{
     grid-area: bottom-section1;
 }
 .grid-area-bottom2{
     grid-area: bottom-section2;
+}
+
+.footer-icons{
+    height: auto;
+    width: 1em;
+    justify-self: end;
+}
+
+footer section ul li p{
+    margin: 0;
 }
 
 
@@ -75,5 +92,16 @@
             "info1 info2 info3"
             "bottom-section1 bottom-section1 bottom-section1"
             "bottom-section2 bottom-section2 bottom-section2";
+    }
+
+    .grid-area-info2{
+        h3{
+            text-align: left;
+        }
+    }
+    .grid-area-info3{
+        h3{
+            text-align: left;
+        }
     }
 }
