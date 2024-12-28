@@ -14,21 +14,14 @@
   .documentation-content #privacy-policy,
   .documentation-content #terms-conditions{
     width: 100%;
-    height: 0;
+    height: 100%;
     z-index: -5;
-    opacity: 0;
-    transition: opacity 0.5s ease;
     display: none;
-    
-    transform: translateX(100%); 
   }
 
   #documentation1:checked ~ .documentation-content #privacy-policy,
   #documentation2:checked ~ .documentation-content #terms-conditions{
-    transform: translateX(0); 
-    opacity: 1;
     z-index: 5;
-    height: 100%;
-    grid-area: placement;
+
     display: block;
     }
