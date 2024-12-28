@@ -74,6 +74,16 @@ footer{
     grid-template-columns: 10% 90%;
 }
 
+
+.col-grid-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+.grid-area-1{
+    grid-template-areas: "placement";
+}
+
 .justify-self-center{
     justify-self: center;
 }

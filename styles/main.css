@@ -51,42 +51,6 @@ body {
 
 
 
-  /*move to document css file and connect that one to only the document html*/
-  .info-label div {
-    display: inline-block;
-    transform-origin: center center;
-    transition: transform 0.3s ease;
-  }
-
-
-  #documentation1:checked ~ div label[for="documentation1"] div,
-  #documentation2:checked ~ div label[for="documentation2"] div{
-    transform: rotate(90deg);
-  }
-
-  .documentation-content #privacy-policy,
-  .documentation-content #terms-conditions{
-    width: 100%;
-    height: 0;
-    z-index: -5;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    /* transform: translateX(100%); */
-  }
-
-  #documentation1:checked ~ .documentation-content #privacy-policy,
-  #documentation2:checked ~ .documentation-content #terms-conditions{
-    /* transform: translateX(0); */
-    opacity: 1;
-    z-index: 5;
-    height: 100%;
-    }
-
-
-
-
-
-
 
 
   @media screen and (max-width: 899px) {
