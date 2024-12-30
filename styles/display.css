@@ -63,6 +63,16 @@ footer{
 .justify-end{
     justify-content:right;
 }
+.justify-center{
+    justify-content:center;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .flex-grow-1{
     flex-grow: 1;
