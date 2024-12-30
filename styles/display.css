@@ -64,6 +64,9 @@ footer{
     justify-content:right;
 }
 
+.flex-grow-1{
+    flex-grow: 1;
+}
 /*grid*/
 .col-grid-2{
     display: grid;

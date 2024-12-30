@@ -150,6 +150,35 @@
 @media screen and (min-width: 900px) {
     :root{
         /*VALUES*/
+        --title-gap: 40px; 
+        --paragraph-gap: 25px; 
+    
+        /*FONT SIZES*/
+        --menu-titles: 20px; 
+        --large-heading: 45px; 
+        --large-title: 40px; 
+    
+        --title-h1: 28px; 
+        --title-h2: 25px; 
+        --title-h3: 20px; 
+    
+        --button-text: 25px; 
+    
+        --paragraph: 18px; 
+        --med-paragraph: 16px;
+        --small-paragraph: 14px; 
+
+                 /*slideshow banner front page*/
+                 --img-banner-2: var(--img-small-boy-painting);
+                 --img-banner-3: var(--img-small-mammoth);
+                 --img-banner-4: var(--img-small-man-in-suit);
+
+    } 
+}
+
+@media screen and (min-width: 1200px) {
+    :root{
+        /*VALUES*/
         --title-gap: 70px; 
         --paragraph-gap: 30px; 
     
@@ -168,10 +197,7 @@
         --med-paragraph: 18px;
         --small-paragraph: 16px; 
 
-         /*slideshow banner front page*/
-        --img-banner-2: var(--img-small-boy-painting);
-        --img-banner-3: var(--img-small-mammoth);
-        --img-banner-4: var(--img-small-man-in-suit);
+
 
     } 
 }

@@ -4,17 +4,17 @@ h1, h2, h3, h4, a, button{
 }
 
 .btn-size{
-    font-size: var(--button-text);
+    font-size: var(--button-text) !important;
 }
 p{
     font-size: var(--paragraph);
     font-family: var(--secondary-font);
 }
 .med-paragraph{
-    font-size: var(--med-paragraph);
+    font-size: var(--med-paragraph) !important;
 }
 .small-paragraph{
-    font-size: var(--small-paragraph);
+    font-size: var(--small-paragraph) !important;
 }
 h1{
     font-size: var(--title-h1);
@@ -31,8 +31,8 @@ a, button{
 }
 
 .large-title{
-    font-size: var(--large-title);
+    font-size: var(--large-title) !important;
 }
 .large-heading{
-    font-size: var(--large-heading);
+    font-size: var(--large-heading) !important;
 }
