@@ -1,4 +1,7 @@
-
+/*width*/
+.width{
+    width: 100%;
+}
 
 .main-container{
     margin: 0;
@@ -59,6 +62,9 @@ footer{
 
 .justify-space-between{
     justify-content: space-between;
+}
+.justify-space-evenly{
+    justify-content: space-evenly;
 }
 .justify-end{
     justify-content:right;

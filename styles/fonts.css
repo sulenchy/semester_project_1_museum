@@ -9,6 +9,7 @@ h1, h2, h3, h4, a, button{
 p{
     font-size: var(--paragraph);
     font-family: var(--secondary-font);
+    line-height: var(--paragraph-gap);
 }
 .med-paragraph{
     font-size: var(--med-paragraph) !important;
@@ -20,6 +21,9 @@ h1{
     font-size: var(--title-h1);
 }
 h2{
+    font-size: var(--title-h2);
+}
+.h2{
     font-size: var(--title-h2);
 }
 h3{
@@ -35,4 +39,15 @@ a, button{
 }
 .large-heading{
     font-size: var(--large-heading) !important;
+}
+
+
+
+
+.italic{
+    font-style: italic;
+}
+
+.medium{
+    font-weight: 400;
 }

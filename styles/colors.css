@@ -1,6 +1,6 @@
 
 .color-dark{
-    fill: var(--color-yellow);
+    color: var(--color-dark);
 }
 .color-orange{
     color: var(--color-yellow);
