@@ -63,5 +63,16 @@
         width: 100%;
         height: 100%;
         background-color: var(--color-shadow-image);
-        z-index: 1;
+        z-index: 5;
+    }
+
+    @media screen and (min-width: 900px){
+        .auto-slideshow {
+            height: 90vh;
+           }
+           .auto-slideshow .overlay {
+            width: 50%;
+
+
+        }
     }
