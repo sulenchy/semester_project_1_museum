@@ -145,6 +145,7 @@
 
     /*UTILITIES*/
     --background-hex: url(../img/illustrations/background-hex.svg);
+    --background-hex-dark: url(../img/illustrations/background-hex-dark.svg);
 } 
 
 @media screen and (min-width: 900px) {

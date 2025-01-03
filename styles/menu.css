@@ -77,6 +77,15 @@
     }
   }
 
+
+  .menu-background-svg{
+    background-image: var(--background-hex-dark);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom right;
+    
+  } 
+
   
 
 
@@ -85,6 +94,10 @@
         max-height: 70px;
         background-color: var(--color-dark);
     }
+    .menu-background-svg{
+      background-image: none;
+      
+    } 
     #menu {
         align-self: flex-end;
         position: initial;
