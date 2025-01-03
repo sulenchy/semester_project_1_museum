@@ -10,7 +10,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 90px 1fr auto;
     grid-template-areas:
         "header header header"
         "main main main"
@@ -132,6 +132,10 @@ footer{
 
 .margin-bottom-2rem{
     margin-bottom: 2rem;
+}
+
+.padding-top-2rem{
+    padding-top: 2rem;
 }
 
 

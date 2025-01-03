@@ -1,6 +1,6 @@
-.main-container{
+/* .main-container{
     grid-template-rows: 70px 1fr auto;
-}
+} */
 .info-label div {
     display: inline-block;
     transform-origin: center center;
