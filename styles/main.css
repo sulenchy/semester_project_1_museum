@@ -28,7 +28,12 @@ body {
    }
   }
 
-
+.background-svg{
+  background-image: var(--background-hex);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top left ;
+}
 
 
 
@@ -39,9 +44,24 @@ body {
     }
   }
 
+  @media screen and (min-width: 700px) {
+
+    .background-svg{
+      background-size: 500px auto;
+      background-position: 0% 8%;
+    }
+  }
+
   @media screen and (min-width: 900px) {
     .hidden-on-desktop {
       display: none !important;
       z-index: -1 !important;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+
+    .background-svg{
+      background-size: 700px auto;
     }
   }

@@ -154,7 +154,9 @@ footer{
 }
 .remove-padding{
     padding: 0;
+    margin: 0;
 }
+
 
 
 /*display*/
@@ -168,6 +170,28 @@ footer{
 
     .main-container{
     grid-template-rows: 70px 1fr auto;
+    }
 
+   
+
+    .side-margin-20{
+        margin: 0 10%;
+    }
+
+    .menu-padding{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
-} 
+
+@media screen and (min-width: 1440px){
+    .side-margin-20{
+        margin: 0 20%;
+    }
+    .side-padding-20{
+        padding: 10px 10%;
+    }
+    .menu-padding{
+        padding-right: 5rem;
+    }
+}
