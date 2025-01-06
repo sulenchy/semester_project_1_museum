@@ -2,7 +2,7 @@
     position: fixed;
     top: 3%;
     right: 3%;
-    z-index: 1;
+    z-index: 20;
   }
 
   #menu input {
@@ -10,7 +10,7 @@
     width: var(--button-lines-w);
     cursor: pointer;
     opacity: 0;
-    z-index: 2;
+    z-index: 21;
     -webkit-touch-callout: none;
   }
 
@@ -22,7 +22,7 @@
     background-color: var(--color-yellow);
     border-radius: var(--border-radius);
     position: relative;
-    z-index: 3;
+    z-index: 22;
     transition: 0.5s ease-in-out;
     transform-origin: left center;
   }
@@ -52,6 +52,7 @@
     padding: 10px 10px 10px 3%;
     background-color: var(--color-dark);
     color: var(--color-white);
+    z-index: 19;
 
     li a{
 
