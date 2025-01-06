@@ -6,6 +6,10 @@ h1, h2, h3, h4, a, button{
 .btn-size{
     font-size: var(--button-text) !important;
 }
+
+.title-font{
+    font-family: var(--title-font) !important;
+}
 p{
     font-size: var(--paragraph);
     font-family: var(--secondary-font);
@@ -17,28 +21,34 @@ p{
 .small-paragraph{
     font-size: var(--small-paragraph) !important;
 }
-h1{
+h1, .h1{
     font-size: var(--title-h1);
+    font-weight: 500;
 }
-h2{
+
+h2, .h2{
     font-size: var(--title-h2);
+    font-weight: 700;
 }
-.h2{
-    font-size: var(--title-h2);
-}
-h3{
+
+h3, .h3{
     font-size: var(--title-h3);
+    font-weight: 500;
 }
+
 
 a, button{
     font-size: var(--button-text);
+    font-weight: 300;
 }
 
 .large-title{
     font-size: var(--large-title) !important;
+    font-weight: 600;
 }
 .large-heading{
     font-size: var(--large-heading) !important;
+    font-weight: 500;
 }
 
 

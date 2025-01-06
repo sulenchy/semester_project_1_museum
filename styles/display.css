@@ -2,6 +2,9 @@
 .width{
     width: 100%;
 }
+.width-70percent{
+    width: 70%;
+}
 
 .full-size{
     width: 100%;
