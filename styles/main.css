@@ -35,6 +35,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top left ;
+  z-index: -10;
   
 } 
 
