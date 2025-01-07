@@ -25,3 +25,7 @@
   .inset-top-shadow {
     box-shadow: 0px 8px 10px -5px var(--color-shadow-image) inset;
   }
+
+  .bottom-inset-top-shadow {
+    box-shadow: 0px 8px 10px -5px var(--color-shadow), 0px 8px 10px -5px var(--color-shadow-image) inset;
+  }
