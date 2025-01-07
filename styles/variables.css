@@ -10,7 +10,7 @@
     --color-dark: #252424;
 
     --color-white: #F5F5F5;
-    --color-off-white: #FAF3E0;
+    --color-off-white: #E1E1E1;
     --color-purple: #8E44AD;
 
     --color-black:#1E1E1E;
@@ -181,7 +181,7 @@
     } 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     :root{
         /*VALUES*/
         --title-gap: 70px; 
