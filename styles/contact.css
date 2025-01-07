@@ -57,9 +57,7 @@
         column-gap: 0;
     }
 
-    .contact-padding{
-        padding: 0 20%;
-    }
+    
 
 }
 @media screen and (min-width: 1200px){
@@ -70,5 +68,7 @@
                             'info6 info6 info6';
     }
 
-   
+    .contact-padding{
+        padding: 0 5%;
+    }
 }
