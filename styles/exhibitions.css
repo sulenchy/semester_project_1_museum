@@ -3,3 +3,7 @@
     linear-gradient(var(--color-shadow-image), var(--color-shadow-image)),
     var(--img-small-boy-painting);
 }
+
+.banner-img{
+    width: 100%;
+}
