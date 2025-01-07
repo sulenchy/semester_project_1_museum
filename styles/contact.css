@@ -4,6 +4,18 @@
     var(--img-small-aeria2);
 }
 
+.contact-some{
+    width: auto;
+    height: 70%;
+    color: var(--color-purple);
+    
+    svg{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+    }
+}
+
 @media screen and (min-width: 900px){
     .grid-1row-grow-2row{
         grid-template-columns: repeat(3, 1fr);

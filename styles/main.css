@@ -20,8 +20,10 @@ body {
 
   .some-img{
    width: auto;
-   height: 50%;
-   img{
+   height: 80%;
+   min-width: 37px;
+   max-width: 57px;
+   img, svg{
     height: 100%;
     width: 100%;
     object-fit: cover;
