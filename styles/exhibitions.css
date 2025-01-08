@@ -6,6 +6,7 @@
 
 .banner-img{
     width: 100%;
+    height: 150px;
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
@@ -27,15 +28,19 @@
     background-image: var(--title-img5);
 }
 
-.exhibition-info{
-    display: flex;
+
+
+.exhibition-info {
     width: 100%;
     height: 100%;
     opacity: 0;
+    scale: 0;
     transform: translateY(100%);
     transition: transform 0.5s ease, opacity 0.5s ease;
 }
-.exhibition-input:checked ~ .exhibition-info{
+
+.exhibition-input:checked + .banner-img + .exhibition-info {
     transform: translateY(0);
+    scale: 1;
     opacity: 1;
-    }
+}
