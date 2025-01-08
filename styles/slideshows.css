@@ -1,0 +1,29 @@
+.event-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+    display: grid;
+    grid-template-rows: 60% 40%;
+    grid-template-areas: '.'
+                        'placement';
+}
+.placement{
+    grid-area: placement;
+}
+
+.event-img-1{
+    background-image: var(--img-news-slideshow-woman-professor);
+}
+.event-img-2{
+    background-image: var(--img-news-slideshow-aeria-elefant);
+}
+.event-img-3{
+    background-image: var(--img-news-slideshow-container);
+}
+
+
+@media screen and (min-width: 900px){
+    
+}
