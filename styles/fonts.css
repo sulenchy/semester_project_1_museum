@@ -18,6 +18,7 @@ p{
 }
 .med-paragraph{
     font-size: var(--med-paragraph) !important;
+    line-height: 20px;
 }
 .small-paragraph{
     font-size: var(--small-paragraph) !important;
@@ -35,7 +36,7 @@ h2, .h2{
 
 h3, .h3{
     font-size: var(--title-h3);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 

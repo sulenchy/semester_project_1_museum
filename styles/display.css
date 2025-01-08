@@ -161,7 +161,9 @@ footer{
 }
 
 .side-margin-20{
-    margin: 0 20px;
+    /* margin: 0 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .margin-auto{
@@ -238,7 +240,9 @@ footer{
    
 
     .side-margin-20{
-        margin: 0 10%;
+        /* margin: 0 10%; */
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .menu-padding{
@@ -249,7 +253,9 @@ footer{
 
 @media screen and (min-width: 1440px){
     .side-margin-20{
-        margin: 0 20%;
+        /* margin: 0 20%; */
+        margin-left: 20%;
+        margin-right: 20%;
     }
     .side-padding-20{
         padding: 10px 10%;
