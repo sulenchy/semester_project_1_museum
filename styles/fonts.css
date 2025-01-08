@@ -5,6 +5,7 @@ h1, h2, h3, h4, a, button{
 
 .btn-size{
     font-size: var(--button-text) !important;
+    font-weight: 300;
 }
 
 .title-font{

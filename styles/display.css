@@ -2,6 +2,9 @@
 .width{
     width: 100%;
 }
+.width-110{
+    width: 110%;
+}
 .width-70percent{
     width: 70%;
 }
@@ -156,9 +159,6 @@ footer{
     margin: 0;
 }
 
-.padding-1rem{
-    padding: 1rem;
-}
 .margin-bottom-1rem{
     margin-bottom: 1rem;
 }
@@ -167,15 +167,20 @@ footer{
     margin-bottom: 2rem;
 }
 
-.padding-top-2rem{
-    padding-top: 2rem;
-}
-
 
 
 
 /*padding*/
+.btn-side-padding{
+    padding: 0 5%;
+}
+.padding-top-2rem{
+    padding-top: 2rem;
+}
 
+.padding-1rem{
+    padding: 1rem;
+}
 .side-padding-20{
     padding: 10px 20px;
 }

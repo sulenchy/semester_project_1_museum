@@ -6,4 +6,23 @@
 
 .banner-img{
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.title-banner-1{
+ background-image: var(--title-img1);
+}
+.title-banner-2{
+    background-image: var(--title-img2);
+   }
+.title-banner-3{
+    background-image: var(--title-img3);
+}
+.title-banner-4{
+    background-image: var(--title-img4);
+}
+.title-banner-5{
+    background-image: var(--title-img5);
 }
