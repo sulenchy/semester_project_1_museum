@@ -28,23 +28,16 @@
 
 /*general image slideshow*/
 
-/* .slider {
-	height: 100%;
-	white-space: nowrap;
-	transition: 0.8s;
-} */
-
-
 .slideshow-container {
     position: relative;
-    /* width: 100%; */
-    height: 300px;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     
   }
   
   .slides {
-    height: 100%;
+    height: 300px;
     white-space: nowrap;
     transition: 0.8s;
   }
@@ -55,11 +48,10 @@
     display: inline-block;
     white-space: normal;
     vertical-align: top;
-    background: none 50% no-repeat;
-    background-size: cover;
+
     img {
       width: 100%;
-      height: auto;
+      height: 100%;
       object-fit: cover;
     }
   }
@@ -81,8 +73,53 @@
     -webkit-transform: translateX(-200%);
   }
 
-  .arrows{
-    z-index: 5;
-  }
+  .arrows {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    bottom: 0; 
+    z-index: 10;
+    pointer-events: none;
+}
+
+.arrow {
+    position: static; 
+    margin: 0 15px; 
+    font-size: 2rem;
+    cursor: pointer;
+    pointer-events: all;
+    color: var(--color-dark);
+
+    user-select: none;
+    display: none; 
+}
+
+#slide1:checked ~ .arrows label:nth-of-type(1),
+#slide1:checked ~ .arrows label:nth-of-type(2) { 
+    display: inline-block;
+}
+
+#slide2:checked ~ .arrows label:nth-of-type(3),
+#slide2:checked ~ .arrows label:nth-of-type(4) {
+    display: inline-block;
+}
+
+#slide3:checked ~ .arrows label:nth-of-type(5), 
+#slide3:checked ~ .arrows label:nth-of-type(6) { 
+    display: inline-block;
+}
+
+.arrow:not(:hover) {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+
+
   
 
