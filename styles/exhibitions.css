@@ -70,4 +70,25 @@
 }
 
 
+.exhibition-layout{
+    display: flex;
+    flex-direction: column;
+}
 
+
+@media screen and (min-width: 900px){
+    .banner-img{
+        position: sticky;
+        top: 70px;
+        z-index: 5;
+        float: right;
+
+        width: 70%;
+        height: 100px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .banner-img{
+        width: 50%;
+    }
+}
