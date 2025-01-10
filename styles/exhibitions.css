@@ -106,6 +106,22 @@
         width: 20px; 
     }
 
+    /* .exhibition-input:checked + .banner-img {
+        position: fixed;
+        top: 70px; 
+        right: 50%;
+        transform: translateX(50%); 
+        z-index: 10;
+        width: 70%;
+        transition: right 0.5s ease, transform 0.5s ease;
+    }
+
+    .exhibition-input:not(:checked) + .banner-img {
+        position: relative;
+        width: 70%; 
+    } */
+
+
 }
 @media screen and (min-width: 1440px){
     .banner-img{
