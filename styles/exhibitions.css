@@ -75,6 +75,22 @@
     flex-direction: column;
 }
 
+.exhibition-input:checked + .banner-img::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px; 
+    height: 100%; 
+    background-color: var(--color-yellow);
+    z-index: 1; 
+    transition: background-color 1s ease; 
+}
+.banner-img {
+    position: relative;
+}
+
+
 
 @media screen and (min-width: 900px){
     .banner-img{
@@ -86,6 +102,10 @@
         width: 70%;
         height: 100px;
     }
+    .exhibition-input:checked + .banner-img::before {
+        width: 20px; 
+    }
+
 }
 @media screen and (min-width: 1440px){
     .banner-img{
