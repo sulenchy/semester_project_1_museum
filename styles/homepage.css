@@ -5,7 +5,7 @@
         width: 100%;
         height: 100vh;
         position: relative;
-        z-index: -1;
+        z-index: 0;
         .slide {
          position: absolute;
          top: 0;
@@ -18,6 +18,10 @@
         }
        }
         
+       .auto-slideshow .slide {
+        pointer-events: none; 
+    }
+    
         
        .auto-slideshow .slide:nth-child(1) {
           background-image: var(--img-banner-1);
@@ -64,6 +68,11 @@
         height: 100%;
         background-color: var(--color-shadow-image);
         z-index: 5;
+        pointer-events: auto;
+    }
+    .clickable{
+        position: relative;
+        z-index: 6; 
     }
 
     @media screen and (min-width: 900px){
