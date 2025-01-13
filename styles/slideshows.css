@@ -52,30 +52,45 @@
 
 
 .nav-circles {
+  position: absolute; 
+  bottom: 20px; 
+  left: 50%; 
+  transform: translateX(-50%); 
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  gap: 2rem; 
+  z-index: 10; 
 }
 
-.nav-circles .circle {
-  width: 12px;
-  height: 12px;
-  margin: 0 5px;
-  border-radius: 50%;
-  background-color: var(--color-dark);
+.nav-circles .circle div {
+  --b: 2px; 
+  height: 25px; 
+  aspect-ratio: cos(30deg);
+  clip-path: 
+    polygon(50% 0,-50% 50%,50% 100%,150% 50%,50% 0,
+    50% var(--b),
+    calc(100% - var(--b)*sin(60deg)) calc(25% + var(--b)*cos(60deg)),
+    calc(100% - var(--b)*sin(60deg)) calc(75% - var(--b)*cos(60deg)),
+    50% calc(100% - var(--b)),
+    calc(var(--b)*sin(60deg)) calc(75% - var(--b)*cos(60deg)),
+    calc(var(--b)*sin(60deg)) calc(25% + var(--b)*cos(60deg)),
+    50% var(--b));
+  background-color: var(--color-purple);
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .nav-circles .circle:hover {
-  background-color: var(--color-purple);
+  scale: 1.2;
 }
 
 
-input#event-slide1:checked ~ .nav-circles label[for="event-slide1"],
-input#event-slide2:checked ~ .nav-circles label[for="event-slide2"],
-input#event-slide3:checked ~ .nav-circles label[for="event-slide3"] {
+input#event-slide1:checked ~ .nav-circles label[for="event-slide1"] div,
+input#event-slide2:checked ~ .nav-circles label[for="event-slide2"] div,
+input#event-slide3:checked ~ .nav-circles label[for="event-slide3"] div {
+  aspect-ratio: cos(30deg);
+  clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
   background-color: var(--color-purple);
 }
 
