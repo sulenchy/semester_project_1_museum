@@ -296,21 +296,21 @@ input[name="event-slider"]:nth-of-type(3):checked ~ .arrows label:nth-of-type(6)
     }
 
     input[name="exhibition-slider"]:nth-of-type(2):checked ~ .event-slides  {
-        transform: translateX(-100%);
-        -webkit-transform: translateX(-100%);
+        transform: translateX(-55%);
+        -webkit-transform: translateX(-55%);
     }
    
     input[name="exhibition-slider"]:nth-of-type(3):checked ~ .event-slides  {
-        transform: translateX(-200%);
-        -webkit-transform: translateX(-200%);
+        transform: translateX(-110%);
+        -webkit-transform: translateX(-110%);
     }
     input[name="exhibition-slider"]:nth-of-type(4):checked ~ .event-slides  {
-      transform: translateX(-300%);
-      -webkit-transform: translateX(-300%);
+      transform: translateX(-165%);
+      -webkit-transform: translateX(-165%);
     }
     input[name="exhibition-slider"]:nth-of-type(5):checked ~ .event-slides  {
-      transform: translateX(-400%);
-      -webkit-transform: translateX(-400%);
+      transform: translateX(-220%);
+      -webkit-transform: translateX(-220%);
     }
     
       .slides {
