@@ -25,18 +25,34 @@
 }
 
 
+.exhibition-slideshow-1{
+  background-image: var(--img-slideshow1);
+}
+.exhibition-slideshow-2{
+  background-image: var(--img-slideshow2);
+}
+.exhibition-slideshow-3{
+  background-image: var(--img-slideshow3);
+}
+.exhibition-slideshow-4{
+  background-image: var(--img-slideshow4);
+}
+.exhibition-slideshow-5{
+  background-image: var(--img-slideshow5);
+}
+
 /*event-slideshow*/
 
 .event-parent {
   position: relative;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   overflow: hidden;
 }
 
 .event-slides {
   display: flex; 
-  height: 550px;
+  height: 500px;
   transition: transform 0.8s ease;
 }
 
@@ -44,7 +60,7 @@
   flex: 0 0 100%; 
   height: 100%;
   display: grid;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 55% 45%;
   grid-template-areas:
     "."
     "placement";
@@ -52,10 +68,11 @@
 
 
 .nav-circles {
-  position: absolute; 
+  /* position: absolute; 
   bottom: 10px; 
   left: 50%; 
-  transform: translateX(-50%); 
+  transform: translateX(-50%);  */
+  margin: 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +105,12 @@
 
 input#event-slide1:checked ~ .nav-circles label[for="event-slide1"] div,
 input#event-slide2:checked ~ .nav-circles label[for="event-slide2"] div,
-input#event-slide3:checked ~ .nav-circles label[for="event-slide3"] div {
+input#event-slide3:checked ~ .nav-circles label[for="event-slide3"] div,
+input#exh-slide1:checked ~ .nav-circles label[for="exh-slide1"] div,
+input#exh-slide2:checked ~ .nav-circles label[for="exh-slide2"] div,
+input#exh-slide3:checked ~ .nav-circles label[for="exh-slide3"] div,
+input#exh-slide4:checked ~ .nav-circles label[for="exh-slide4"] div,
+input#exh-slide5:checked ~ .nav-circles label[for="exh-slide5"] div {
   aspect-ratio: cos(30deg);
   clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
   background-color: var(--color-purple);
@@ -158,7 +180,8 @@ input[name="cosmology-slider"]:nth-of-type(1):checked ~ .slides,
 input[name="robotics-slider"]:nth-of-type(1):checked ~ .slides,
 input[name="evolution-slider"]:nth-of-type(1):checked ~ .slides,
 input[name="ecology-slider"]:nth-of-type(1):checked ~ .slides,
-input[name="event-slider"]:nth-of-type(1):checked ~ .event-slides  {
+input[name="event-slider"]:nth-of-type(1):checked ~ .event-slides,
+input[name="exhibition-slider"]:nth-of-type(1):checked ~ .event-slides  {
     transform: translateX(0%);
     -webkit-transform: translateX(0%);
 }
@@ -168,7 +191,8 @@ input[name="cosmology-slider"]:nth-of-type(2):checked ~ .slides,
 input[name="robotics-slider"]:nth-of-type(2):checked ~ .slides,
 input[name="evolution-slider"]:nth-of-type(2):checked ~ .slides,
 input[name="ecology-slider"]:nth-of-type(2):checked ~ .slides,
-input[name="event-slider"]:nth-of-type(2):checked ~ .event-slides  {
+input[name="event-slider"]:nth-of-type(2):checked ~ .event-slides,
+input[name="exhibition-slider"]:nth-of-type(2):checked ~ .event-slides  {
     transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
 }
@@ -178,9 +202,18 @@ input[name="cosmology-slider"]:nth-of-type(3):checked ~ .slides,
 input[name="robotics-slider"]:nth-of-type(3):checked ~ .slides,
 input[name="evolution-slider"]:nth-of-type(3):checked ~ .slides,
 input[name="ecology-slider"]:nth-of-type(3):checked ~ .slides,
-input[name="event-slider"]:nth-of-type(3):checked ~ .event-slides  {
+input[name="event-slider"]:nth-of-type(3):checked ~ .event-slides,
+input[name="exhibition-slider"]:nth-of-type(3):checked ~ .event-slides  {
     transform: translateX(-200%);
     -webkit-transform: translateX(-200%);
+}
+input[name="exhibition-slider"]:nth-of-type(4):checked ~ .event-slides  {
+  transform: translateX(-300%);
+  -webkit-transform: translateX(-300%);
+}
+input[name="exhibition-slider"]:nth-of-type(5):checked ~ .event-slides  {
+  transform: translateX(-400%);
+  -webkit-transform: translateX(-400%);
 }
 
 
