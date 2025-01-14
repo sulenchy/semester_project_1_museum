@@ -56,14 +56,18 @@
   transition: transform 0.8s ease;
 }
 
+
 .event-slides .event-container {
   flex: 0 0 100%; 
   height: 100%;
   display: grid;
   grid-template-rows: 55% 45%;
   grid-template-areas:
-    "."
-    "placement";
+  "."
+  "placement";
+}
+.ehxibition-slideshow{
+  height: 300px;
 }
 
 

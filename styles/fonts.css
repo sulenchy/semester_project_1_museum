@@ -16,6 +16,9 @@ p{
     font-family: var(--secondary-font);
     line-height: var(--paragraph-gap);
 }
+.paragraph{
+    font-size: var(--paragraph);
+}
 .med-paragraph{
     font-size: var(--med-paragraph) !important;
     line-height: 20px;
@@ -63,4 +66,7 @@ a, button{
 
 .medium{
     font-weight: 400;
+}
+.light{
+    font-weight: 200;
 }
