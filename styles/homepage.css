@@ -105,4 +105,49 @@
 
 
         }
+
+        .grid-area-names{
+            grid-template-areas: 'banner-1 info-1'
+                                'info-2 banner-2'
+                                'banner-3 info-3';
+        }
+        .grid-name-banner-1{
+            grid-area: banner-1;
+        }
+        .grid-name-info-1{
+            grid-area: info-1;
+        }
+        .grid-name-banner-2{
+            grid-area: banner-2;
+        }
+        .grid-name-info-2{
+            grid-area: info-2;
+        }
+        .grid-name-banner-3{
+            grid-area: banner-3;
+        }
+        .grid-name-info-3{
+            grid-area: info-3;
+        }
+
+        .grid-name-info-1,
+        .grid-name-info-2,
+        .grid-name-info-3{
+            margin: 0 10%;
+            margin-bottom: 20px;
+        }
+        .grid-name-info-1 p:first-child,
+        .grid-name-info-2 p:first-child,
+        .grid-name-info-3 p:first-child{
+            margin-top: 0;
+        }
+        .banner-img{
+            height: 250px;
+          }
+    }
+
+    @media screen and (min-width: 1440px){
+        .banner-img{
+            height: 386px;
+          }
     }
