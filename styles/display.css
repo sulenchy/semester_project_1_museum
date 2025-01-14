@@ -135,6 +135,11 @@ footer{
     column-gap: 1rem;
 }
 
+.grid-1-col-2-col{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .grid-3-4{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -162,6 +167,10 @@ footer{
 
 .side-margin-20{
     /* margin: 0 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.small-side-margin{
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -244,10 +253,31 @@ footer{
         margin-left: 10%;
         margin-right: 10%;
     }
-
+    .small-side-margin{
+        margin-left: 10%;
+        margin-right: 5%;
+    }
     .menu-padding{
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+
+
+    .grid-1-col-2-col{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'information .'
+                            'information event-slide'
+                            'information2 event-slide';
+        margin-bottom: 1rem;
+    }
+    .grid-name-information{
+        grid-area: information;
+    }
+    .grid-name-information2{
+        grid-area: information2;
+    }
+    .grid-name-event-slide{
+        grid-area: event-slide;
     }
 }
 
@@ -256,6 +286,10 @@ footer{
         /* margin: 0 20%; */
         margin-left: 20%;
         margin-right: 20%;
+    }
+    .small-side-margin{
+        margin-left: 20%;
+        margin-right: 5%;
     }
     .side-padding-20{
         padding: 10px 10%;
@@ -266,4 +300,12 @@ footer{
     .grid-3-4{
         grid-template-columns: 40% 60%;
     }
+
+    /* .grid-1-col-2-col{
+        grid-template-columns: 2fr 3fr;
+        grid-template-areas: 'information .'
+                            'information event-slide'
+                            'information2 event-slide';
+        margin-bottom: 2rem;
+    } */
 }
