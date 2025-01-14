@@ -67,6 +67,9 @@ a, button{
 .medium{
     font-weight: 400;
 }
+.small-medium{
+    font-weight: 300;
+}
 .light{
     font-weight: 200;
 }
